@@ -1,8 +1,30 @@
 /* add css styles here (optional) */
 
-.test {
-  display: inline-block;
-  margin: 2em auto;
-  border: 2px solid #000;
-  font-size: 2em;
+.paneGroup {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.paneGroup::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.pane, .divider, .spacer {
+  float: left;
+}
+
+.pane {
+  box-sizing: border-box;
+  background-color: #dedede;
+}
+
+.divider {
+  background: #777;
+  cursor: ew-resize;
+}
+
+.spacer {
+  background: #dedede;
 }

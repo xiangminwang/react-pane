@@ -1,7 +1,7 @@
-import ExampleComponent from './'
+import PaneGroupComponent from './'
 
-describe('ExampleComponent', () => {
+describe('PaneGroupComponent', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(PaneGroupComponent).toBeTruthy()
   })
 })
