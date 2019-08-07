@@ -1,6 +1,6 @@
 # react-panes
 
-> A pane based layout manager for React, written in TypeScript!
+![screenshot](https://github.com/xiangminwang/react-panes/blob/master/screenshot.png)
 
 [![NPM](https://img.shields.io/npm/v/react-panes.svg)](https://www.npmjs.com/package/react-panes) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
