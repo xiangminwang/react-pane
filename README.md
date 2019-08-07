@@ -15,12 +15,21 @@ npm install --save react-panes
 ```tsx
 import * as React from 'react'
 
-import MyComponent from 'react-panes'
+import { PaneGroup, Pane } from 'react-panes'
 
-class Example extends React.Component {
+class Layout extends React.Component {
   render () {
     return (
-      <MyComponent />
+      <PaneGroup by="row">
+        <Pane></Pane>
+        <Pane></Pane>
+        <Pane>
+          <PaneGroup by="col">
+            <Pane></Pane>
+            <Pane></Pane>
+          </PaneGroup>
+        </Pane>
+      </PaneGroup>
     )
   }
 }
@@ -28,4 +37,4 @@ class Example extends React.Component {
 
 ## License
 
-MIT © [xiangminwang](https://github.com/xiangminwang)
+MIT © [Xiangmin Wang](https://github.com/xiangminwang)

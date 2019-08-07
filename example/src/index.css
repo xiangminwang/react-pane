@@ -1,14 +1,7 @@
 html, body, #root {
   margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
-}
-
-h1 {
-  display: block;
-  color: #a7a7a7;
-  margin: 0;
-  padding-top: 30px;
-  text-align: center;
+  padding: 30px;
+  height: calc(100% - 60px);
+  height: calc(100% - 60px);
+  background-color: #efefef;
 }

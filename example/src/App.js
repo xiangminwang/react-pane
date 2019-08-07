@@ -1,18 +1,26 @@
 import React from 'react'
 import { PaneGroup, Pane } from 'react-panes'
 
+const style = {
+  height: '100%',
+  border: '2px solid #a7a7a7',
+  boxSizing: 'border-box'
+}
+
 export default () => {
   return (
-    <div style={{ margin: 0, padding: 0, height: 496, background: '#dedede', border: '2px solid #777' }}>
+    <div style={style}>
       <PaneGroup by="row">
-        <Pane><h1>1</h1></Pane>
-        <Pane><h1>2</h1></Pane>
         <Pane>
           <PaneGroup by="col">
-            <Pane><h1>3</h1></Pane>
-            <Pane><h1>4</h1></Pane>
+            <Pane></Pane>
+            <Pane></Pane>
+            <Pane></Pane>
+            <Pane></Pane>
           </PaneGroup>
         </Pane>
+        <Pane></Pane>
+        <Pane></Pane>
       </PaneGroup>
     </div>
   )

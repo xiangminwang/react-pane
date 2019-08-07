@@ -17,14 +17,29 @@
 
 .pane {
   box-sizing: border-box;
-  background-color: #dedede;
-}
-
-.divider {
-  background: #777;
-  cursor: ew-resize;
+  background-color: #fefefe;
 }
 
 .spacer {
-  background: #dedede;
+  background: #fefefe;
+}
+
+.divider {
+  position: relative;
+}
+
+.rowHandler,
+.colHandler {
+  position: absolute;
+  background: #a7a7a7;
+  width: 100%;
+  height: 100%;
+}
+
+.rowHandler {
+  cursor: ew-resize;
+}
+
+.colHandler {
+  cursor: ns-resize;
 }
