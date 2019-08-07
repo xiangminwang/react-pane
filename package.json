@@ -1,10 +1,10 @@
 {
-  "name": "react-panes",
+  "name": "react-pane",
   "version": "1.0.0",
   "description": "A pane based layout manager for React, written in TypeScript!",
   "author": "xiangminwang",
   "license": "MIT",
-  "repository": "xiangminwang/react-panes",
+  "repository": "xiangminwang/react-pane",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
