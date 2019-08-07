@@ -1,13 +1,13 @@
-# react-panes
+# react-pane
 
-![screenshot](https://github.com/xiangminwang/react-panes/blob/master/screenshot.png)
+![screenshot](https://github.com/xiangminwang/react-pane/blob/master/screenshot.png)
 
-[![NPM](https://img.shields.io/npm/v/react-panes.svg)](https://www.npmjs.com/package/react-panes) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-pane.svg)](https://www.npmjs.com/package/react-pane) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react-panes
+npm install --save react-pane
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save react-panes
 ```tsx
 import * as React from 'react'
 
-import { PaneGroup, Pane } from 'react-panes'
+import { PaneGroup, Pane } from 'react-pane'
 
 class Layout extends React.Component {
   render () {
